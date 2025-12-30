@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>DieCast World</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<nav>
+    <h1>DieCast World</h1>
+    <ul>
+        <li><a href="#home">Home</a></li>
+        <li><a href="#products">Products</a></li>
+        <li><a href="#contact">Contact</a></li>
+    </ul>
+</nav>
+
+<!-- HOME -->
+<section id="home" class="section home-bg">
+    <div class="overlay">
+        <div class="content">
+            <h2>Premium Collectibles Store</h2>
+            <p>
+                High-quality die-cast cars, bikes, and anime figures for collectors.
+            </p>
+            <button onclick="scrollToProducts()">Explore Products</button>
+        </div>
+    </div>
+</section>
+
+<!-- PRODUCTS -->
+<section id="products" class="section products-bg">
+    <h2>Our Products</h2>
+
+    <div class="cards">
+        <div class="card car-bg">
+            <h3>Die-Cast Cars</h3>
+            <p>Luxury, sports & limited-edition scale models.</p>
+        </div>
+
+        <div class="card bike-bg">
+            <h3>Die-Cast Bikes</h3>
+            <p>Superbikes & racing bike collectibles.</p>
+        </div>
+
+        <div class="card anime-bg">
+            <h3>Anime Figures</h3>
+            <p>Highly detailed anime character figures.</p>
+        </div>
+    </div>
+</section>
+
+<!-- CONTACT -->
+<section id="contact" class="section contact-bg">
+    <div class="overlay">
+        <h2>Contact Us</h2>
+
+        <form>
+            <input type="text" placeholder="Your Name" required>
+            <input type="email" placeholder="Email Address" required>
+            <textarea placeholder="Your Message"></textarea>
+            <button type="submit">Send Message</button>
+        </form>
+
+        <p class="footer">© 2025 DieCast World</p>
+    </div>
+</section>
+
+<script src="script.js"></script>
+</body>
+</html>
